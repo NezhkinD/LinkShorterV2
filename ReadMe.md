@@ -1,3 +1,10 @@
+# Настройка приложения
+В файле [application.properties](src%2Fmain%2Fresources%2Fapplication.properties) можно настроить следующие параметры:
+- app.properties.shortLinkLen - длинна в символах короткой ссылки (кода), рекомендуется не меньше 10 символов
+- app.properties.shortLinkAllowedChars - алфавит, из которого составляется короткая ссылка (код)
+- app.properties.shortLinkExpiredInHours - время жизни ссылки в часах
+- app.properties.shortLinkTransitionLimit - макс кол-во переходов по ссылке
+
 # Запуск
 1) Для работы приложения требуется:
 - java >= v17

@@ -1,7 +1,7 @@
 DB_CONTAINER_NAME = ls_db
 DB_CONTAINER_PORT = 33062
 
-run: db_restart build migration start_java
+run: db_run build migration start_java
 
 start_java:
 	java -jar target/LinkShorterService.jar
